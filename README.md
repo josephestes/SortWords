@@ -8,6 +8,7 @@ This program sorts an arbitrary number of words entered by the user.
 Please enter words separated by spaces
 carrot banana apple
 apple banana carrot
+
 Press any key to close this window . . .
 ```
 
