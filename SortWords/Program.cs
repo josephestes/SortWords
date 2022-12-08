@@ -14,23 +14,30 @@ namespace SortWords
     {
         static void Main(string[] args)
         {
-            //Prompt user for input and send it to the SortAndDisplayWords method
+            // Prompt user for input and send it to the SortAndDisplayWords method
             WriteLine("Please enter words separated by spaces");
             SortAndDisplayWords(ReadLine());
         }
+
         static void SortAndDisplayWords(string userInput)
         {
-            //Split the input string into individual words and store them in an array
+            // Split the input string into individual words and store them in an array
             string[] words = userInput.Split();
 
-            //Sort the array in alphabetical order
+            // Sort the array in alphabetical order
             Array.Sort(words);
 
-            //Display the sorted array elements separated by spaces
-            foreach (string word in words)
-            {
-                Write("{0} ", word);
-            }
+            // Join the sorted words into a single string
+            string sortedWords = string.Join(" ", words);
+
+            // Display the sorted words
+            WriteLine(sortedWords);
+
+            // Join the user's input words into a single string
+            string inputWords = string.Join(" ", words);
+
+            // Display the user's input words
+            WriteLine(inputWords);
         }
     }
 }
