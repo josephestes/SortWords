@@ -1,4 +1,4 @@
-﻿/* 
+/* 
  * This program accepts any number of words from the user, 
  * sorts them in alphabetical order, and displays the sorted words separated by spaces
  * 
@@ -32,12 +32,6 @@ namespace SortWords
 
             // Display the sorted words
             WriteLine(sortedWords);
-
-            // Join the user's input words into a single string
-            string inputWords = string.Join(" ", words);
-
-            // Display the user's input words
-            WriteLine(inputWords);
         }
     }
 }
