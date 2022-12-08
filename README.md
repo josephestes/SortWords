@@ -1,8 +1,12 @@
 # SortWords
 
-This program sorts an arbitrary number of words entered by the user.
+This program accepts any number of words from the user, sorts them in alphabetical order, and displays the sorted words separated by spaces.
 
-## Usage/Examples
+## Features
+
+- Accepts user input and sorts the words alphabetically
+
+## Example
 
 ```
 Please enter words separated by spaces
@@ -11,10 +15,3 @@ apple banana carrot
 
 Press any key to close this window . . .
 ```
-
-### Program Logic
-
-- Using a separate method:
-  1. Accept any number of words from the user
-  2. Sort them in alphabetical order
-  3. Display the sorted words separated by spaces
